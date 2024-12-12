@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif; /* 应用无衬线字体 */
+    margin: 0;
+    padding: 0;
+    /* background-image: url('1.jpg'); 替换为你的图片URL */
+    /* background-size: cover; */
+    background-position: center; /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复图片 */
+    
+}
+
+nav {
+    background-color: #f80c0c; /* 导航栏背景颜色 */
+    padding: 10px;
+    text-align: center; /* 导航栏居中 */
+}
+
+nav a {
+    margin: 0 10px; /* 导航链接之间的间距 */
+    text-decoration: none; /* 去除下划线 */
+    color: black; /* 链接颜色 */
+}
+
+.container {
+    /* background-image: url('1.jpg'); */
+    display: grid;
+    grid-template-columns: 1fr; /* 一列 */
+    grid-template-rows: auto 1fr; /* 两行 */
+    gap: 10px; /* 间距 */
+    padding: 10px;
+    margin-top: auto; /* 将元素推到顶部 */
+    
+}
+
+.content {
+    background-image: url('2.jpg');
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+    padding: 20px;
+    text-align: center; /* 文本居中 */
+    
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 两列 */
+    grid-template-rows: 1fr; /* 一行 */
+    gap: 10px; /* 间距 */
+    padding: 10px;
+}
+
+.left {
+    background-color: rgba(246, 244, 142, 0.8); /* 半透明背景 */
+    padding: 20px;
+}
+
+.right{
+    background-color: rgba(16, 101, 212, 0.8); /* 半透明背景 */
+    padding: 20px;
+}
+.left h2, .right h2 {
+    text-align: center; /* 标题居中 */
+}
+
+.left p, .right p {
+    text-align: left; /* 文本左对齐 */
+}
+
+.left ul {
+    list-style-type: none; /* 去除列表样式 */
+    padding: 0;
+}
+
+.left li {
+    margin-bottom: 10px; /* 列表项间距 */
+}
